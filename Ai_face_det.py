@@ -7,8 +7,7 @@ frontal_face_data = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 #img = cv2.imread('grp2.png')
 
 #webcam footage to be captured
-webcam = cv2.VideoCapture('vid.mp4')
-
+webcam = cv2.VideoCapture(0)
 
 #itration for frame countinuity 
 while True:
